@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="app">
+    <nav id="nav">
+      <div class="container">
+        <div class="nav-content">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo@2x.png" alt="Logo">
+            <div class="logo-info">
+              <h1>Weather</h1>
+              <p>tagline goes here</p>
+            </div>
+          </a>
+          <ul class="links" id="links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Live Cameras</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span class="toggle-btn" id="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="background-image">
+      <form>
+        <input type="text" placeholder="Find your location..." id="search-input">
+        <input type="button" value="Find">
+      </form>
+    </div>
+    <div class="fixed-background">
+      <div class="container">
+        <div class="the-content" id="app-content"></div>
+      </div> 
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <form>
+            <input type="text" placeholder="Enter your email to subscribe">
+            <input type="button" value="Subscribe">
+          </form>
+          <ul class="social-media">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <p class="end">Copyright 2023 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
